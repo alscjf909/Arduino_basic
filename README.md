@@ -34,11 +34,11 @@
  ### _아두이노는 이런 여러분을 구제 하여 줄 것입니다._
  ***
  ### 2. Arudino 종류
- 프로젝트를 진행하기 위해 Arduino를 살려고하는데 오미...![Arudino uno](./img/mecha.png)   
+ 프로젝트를 진행하기 위해 Arduino를 살려고하는데 오미...![메카솔루션](./img/mecha.png)   
  뭐가 이리 많어..... 사야 될 꺼 딱정해 드립니다.   
     .   
  ![Arudino uno](./img/arduino_uno.png)   
 아두이노 UNO 보드 : 아두이노의 표준 보드로 온라인 상에 있는 대부분의 예제와 강좌, 소스 라이브러리가 UNO보드에 맞춰져 
 있기 때문에 초보자라면 당연히 UNO 보드를 선택하시면 됩니다. 현재 R3 번전까지 나와있습니다.
-![Arudino uno](./img/mecha.png)
- 
+![Arudino uno](./img/arduino_Mega.png)   
+아두이노 Mega 보드   
