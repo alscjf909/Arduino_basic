@@ -4,11 +4,11 @@
 2. Arduino 종류 
 3. Arduino 각각의 요놈의 성능
 4. Arduino 동작시키키 위한 과정
-5.
+5. 마지막으로..
 * * *
 ### 1. Arduino란?   
 
-![Arudino uno](./img/Arduino-callouts1.jpg)
+![Arduino uno](./img/Arduino-callouts1.jpg)
    아두이노(Arduino)는 오픈소스를 기반으로 한 단일 보드 마이크로컨트롤러이다. 아트멜AVR을  
 기반으로 한 보드로 이루어져 있고 최근에는 Cortex-M3를 이용한 제품(Arduino Due)도 있다.   
 소프트웨어 개발을 위한 통합 환경(IDE)이 있다. 아두이노는 다수의 스위치나 센서로부터 값을 받아들여, LED나 모터와   
@@ -29,24 +29,24 @@
 .      
 .
       
- ![Arudino uno](./img/headache.jpg)   
+ ![Arduino uno](./img/headache.jpg)   
     
  ### _아두이노는 이런 여러분을 구제 하여 줄 것입니다._
  ***
- ### 2. Arudino 종류
+ ### 2. Arduino 종류
  프로젝트를 진행하기 위해 Arduino를 살려고하는데 holy sh...!   
-  ![Arudino uno](./img/mecha.PNG)    
+  ![Arduino uno](./img/mecha.PNG)    
   　   
   
  뭐가 이리 많어.....   
   ### ***스피드 웨건*** : 사야 될 꺼 딱정해 드립니다.      
    　
- ![Arudino uno](./img/arduino_uno.png)   
+ ![Arduino uno](./img/arduino_uno.png)   
  
 _아두이노 UNO 보드_ : 아두이노의 표준 보드로 온라인 상에 있는 대부분의 예제와 강좌, 소스 라이브러리가 UNO보드에 맞춰져 
 있기 때문에 초보자라면 당연히 UNO 보드를 선택하시면 됩니다. 현재 R3 번전까지 나와있습니다.   
 ##### => 가장 기본적이 아두이노로 밑에 꺼 안쓸거고 아몰랑 하시면 일단 이거 사시면 됩니당
-![Arudino mega](./img/arduino_Mega.png)   
+![Arduino mega](./img/arduino_Mega.png)   
 
 _아두이노 Mega 보드_ : 아두이노 UNO보드의 약 2배 크기에 제어할 수 있는 핀도 훨씬 많고, 더 빠르고, 저장용량도  
 더 많이 가진 보드입니다. 아두이노 UNO보드에서 처리하기 힘든 멀티미디어 관련 작업이나 복잡한 제어가 필요한  
@@ -55,7 +55,7 @@ _아두이노 Mega 보드_ : 아두이노 UNO보드의 약 2배 크기에 제어
  원래 잘 작동하던 센서들도 안 되는 경우가 많습니다. 이렇게 되면 끝없는 혼돈의 소용돌이에 빠지게 되니  
  arduino를 좀 잘 다룰줄 안다! 이러시는 분들에게 추천 드립니다. 빠르긴 정말 빠릅니다.  
  ##### => 가장 빠르고!! 가장 저장 공간 많고!! 가장 성능 좋고!! 센서도 많고!! 겁나 어렵고!!(?)  
- ![Arudino mega](./img/arduino_Nano.png)   
+ ![Arduino mega](./img/arduino_Nano.png)   
    
    _아두이노 Nano 보드_ : 아두이노 UNO 보드의 소형화 버전이라고 생각하시면 가장 편합니다. 아두이노 UNO를 거의  
    그대로 들고 왔다해도 무방할 정도로 UNO와 호환성이 좋고 크기가 굉장히 작습니다. 하지만 UNO보드는 각가의  
@@ -64,7 +64,7 @@ _아두이노 Mega 보드_ : 아두이노 UNO보드의 약 2배 크기에 제어
    　  
    ##### => 요즘 가장 핫한 보드 크기가 작아 여러 프로젝트에 사용 할 수 있다. 대신 UNO와 Mega와 다른 케이블이 필요하다. 그리고 회로도에 대한 지식이 없으면 정말 말도 안되는 곳에서 막힐 수가 있다.    
    
-  ![Arudino mega](./img/arduino_mini.jpg)   
+  ![Arduino mega](./img/arduino_mini.jpg)   
   　  
   아두이노 Pro/Pro mini : 아두이노 보드 중 가장 작은 사이즈로 손가락 두마디 정도에 아두이노의 기능이 탑재  
   되어 있다. 이때 3.3V/5V 용이 따로 존재하기 때문에 외부 센서나 모듈의 동작전압과 맞춰야 하고 USB에 바로 꽂아  
@@ -74,7 +74,7 @@ _아두이노 Mega 보드_ : 아두이노 UNO보드의 약 2배 크기에 제어
   그밖에도 정말 다양한 종류가 있다. 예를들어 Leonardo, Due, ESPLORA, Ehternet, BT(Bluetooth) 등등이 있지만  
   사실 Arduino Uno에 나중에 배울 Shield라는 아주 좋은 것을 통해 확장이 되므로 굳이 안배워도 될 것이다.  
   ***
-  ### 3. Arudino 성능비교
+  ### 3. Arduino 성능비교
   표[1] 여을 예정  
   
   하나 하나 의 특성은 위에서 다 설명 했고 혹시나 프로젝트를 진행하기전에 이부분에서 만족안 하는 부분이 있는지  
@@ -84,8 +84,36 @@ _아두이노 Mega 보드_ : 아두이노 UNO보드의 약 2배 크기에 제어
   　  
   ![example](./img/구글.PNG)  
   위 그림 처럼 검색하게 되면 여러 파일 들이 나올 껀데 datasheet는 원래 기존 판매처에서 확인 하는 것이 가장  
-  신빙성이 있다. Arudino Uno의 DATASHEET를 뜯어 보는 것은 결국  [ATmega328P_Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf) 를 뜯어 보는 것인데 정말  
+  신빙성이 있다. Arduino Uno의 DATASHEET를 뜯어 보는 것은 결국  [ATmega328P_Datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf) 를 뜯어 보는 것인데 정말  
   하드웨어 프로젝트의 끝판왕으로서 군림하고 싶으면 한번쯤 뜯어 보면 Arduino가 그렇게 대단한 놈인지 알게 될  
   것이다.
   ***
-  ### 4. Arduino 동작시키키 위한 과정
+  ### 4. Arduino 동작시키키 위한 과정  
+  위의 것들을 다 보고 Arduino를 고르고 센서들처럼 모든게 갖춰져 있고 
+  아두이노로 내가 원하는 결과물을 만들기 위해서는 아래 과정을 거치게됩니다.
+
+1. 아두이노와 각종 장치들(LED, 모터, 센서, 모듈 등등)을 연결  
+=> 접지(Ground) 부분은 한 곳으로 모으는게 제일 보기 편하다.
+2. 아두이노 개발환경(Integrated Development Environment, 통합개발환경)을 실행
+=> [아두이노 IDE 설치 방법](https://coding-factory.tistory.com/362)
+3. 아두이노에 연결된 장치들을 원하는 대로 동작하도록 스케치(Sketch, 소스코드) 작성
+4. 아두이노 개발환경에서 스케치 컴파일  
+=> 화이팅...
+5. 아두이노 개발환경에서 컴파일된 바이너리를 아두이노 보드에 업로드  
+=> 업로드 하기 전에 [툴 - 포트]에 들어가 포트를 설정하고 [툴 - 보드 - 자신이 사용하는 보드]를 설정하고 업로드 해야한다.
+6. 아두이노가 스케치대로 동작
+=> 안 될시 에는 다시 1번으로
+ 
+ 즉, 물리적으로 아두이노와 센서, 모듈을 연결하고 –> 소스코드를 작성하고 –> 컴파일해서 아두이노에 업로드하는 과정을 거친다.(안될 시에는 물론 다시 처음으부터..)  
+ ***   
+ ### 5. 마지막으로..  
+ 　  
+ 정말 처음 아두이노를 공부하는 사람이면 이 글을 한번 씩 보는게 좋지만 하드웨어는 **여러번의 실패가 가장 중요하다.**
+ 정말 다양한 오류가 나오고 검색해도 무슨 오류인지 안나오는 경우가 많다. 소프트웨어 오류일 경우 무슨 오류라고 뜨지만 하드웨어
+ 오류 일 경우에는 무엇이 잘못 된 것인지 잘 모른다. 그러므로 마음의 준비와 여유 시간을 가지고 여러 실패를 겪는 것이 
+ 가장 프로젝트 고수로 거듭날 수 있다.
+ 
+ 　  
+
+ 
+  
